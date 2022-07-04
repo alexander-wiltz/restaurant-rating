@@ -1,0 +1,186 @@
+@font-face {
+    font-family: FontAwesome;
+    src: url('../fonts/fontawesome-webfont.woff2');
+}
+
+* {
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f8ff;
+}
+
+.error {
+    color: red;
+    width: 100%;
+    text-align: center;
+}
+
+.no-result {
+    width: 100%;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.table-search,
+.table-login,
+.table-register,
+.table-rate-welcome,
+.table-profile-welcome {
+    margin-top: 15em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-rate-welcome #rate-welcome,
+.table-profile-welcome #profile-welcome {
+    padding: 8px 10px;
+    text-align: center;
+    color: black;
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+.table-search input[type=text],
+.table-login input[type=text],
+.table-login input[type=password],
+.table-register input[type=text],
+.table-register input[type=email],
+.table-register input[type=password] {
+    padding: 8px 10px;
+    text-align: center;
+    color: black;
+    font-size: 1.7em;
+    font-weight: 500;
+    border: 0;
+    border-bottom: 3px solid rgba(0,0,0,1);
+    background-color: transparent;
+}
+
+.table-search button,
+.table-login button,
+.table-register button {
+    padding: 10px 10px;
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 600;
+    border: 3px solid rgba(0,0,0,.9);
+    background-color: rgba(32,178,170,.9);
+    border-radius: 5px;
+}
+
+.table-rate-result button,
+.table-rate-result input[type=text],
+.table-profile-welcome input[type=button] {
+    padding: 4px 4px;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
+    border: 2px solid rgba(0,0,0,.9);
+    background-color: rgba(32,178,170,.9);
+    border-radius: 4px;
+}
+
+.table-rate-result button {
+    width: 100%;
+}
+
+.table-rate-result select::placeholder {
+    color: rgba(0,0,0,.8);
+}
+
+.table-search input[type=text]::placeholder,
+.table-login input[type=text]::placeholder,
+.table-login input[type=password]::placeholder,
+.table-register input[type=text]::placeholder,
+.table-register input[type=email]::placeholder,
+.table-register input[type=password]::placeholder {
+    color: rgba(0,0,0,.6);
+}
+
+.table-login button,
+.table-register button {
+    width: 100%;
+}
+
+.table-search button:hover,
+.table-login button:hover,
+.table-register button:hover,
+.table-rate-result button:hover,
+.table-profile-welcome input[type=button]:hover {
+    background-color: rgba(32,178,170,.5);
+}
+
+.table-result,
+.table-rate-result,
+.table-profile-result {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-result,
+.table-rate-result {
+    width: 36%;
+}
+
+.table-result tr th,
+.table-profile-result tr th {
+    padding: 5px 5px;
+    font-size: 1.1em;
+    border-bottom: 1px solid rgba(0,0,0,.8);
+}
+
+.table-rate-result tr th {
+    padding: 5px 5px;
+    font-size: 1.1em;
+    border: 0;
+}
+
+.table-result tr td,
+.table-profile-result tr td {
+    padding: 4px 4px;
+    border-bottom: 1px solid rgba(0,0,0,.8);
+}
+
+.table-rate-result tr td {
+    padding: 4px 4px;
+    border: 0;
+}
+
+.table-rate-result textarea {
+    width: 100%;
+    height: 7.5em;
+}
+
+.navi {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    margin-top: 1.5em;
+}
+
+.navi hr {
+    border-color: rgba(0,0,0,.6);
+}
+
+.navi a,
+.navi a:active,
+.navi a:focus {
+    color: rgba(0,0,0,.6);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.navi a:hover {
+    color: rgba(0,0,0,1);
+}
